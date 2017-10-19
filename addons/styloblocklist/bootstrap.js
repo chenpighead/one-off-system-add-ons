@@ -21,7 +21,7 @@ const PREF_STYLO_BLOCKLIST_DOMAINS = "layout.css.stylo-blocklist.blocked_domains
  *             "example2.com",
  *           ].join(",");
  */
-const BLOCKED_DOMAINS = "";
+const BLOCKED_DOMAINS = "arewestyloyet.rs";
 
 function install() {
   Preferences.set(PREF_STYLO_BLOCKLIST_ENABLED, true);
